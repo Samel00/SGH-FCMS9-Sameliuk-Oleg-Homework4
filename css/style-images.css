@@ -1,0 +1,304 @@
+ body{
+  max-width: 1200px;
+  width: 100%;
+  font-size: 14px;
+  font-family: arial, sans-serif;
+}
+ 
+ a{
+  text-decoration: none;
+  color: #1A0DAB;
+}
+
+.logo{
+  height: 30px;
+  width: 92px;
+  padding: 4px 30px 0 15px;
+  position: absolute;
+  margin-top:5px;
+
+}
+
+.search{
+  height: 42px;
+  width: 480px;
+  border: 0;
+  padding-top: 0;
+  display:inline;
+  outline:none;
+  font-size: 16px;
+}
+
+.keyboard, .micro, .dandruff{
+  height: 24px;
+  width: 20px;
+  margin-top: 4px;
+  align-items: center;
+}
+
+.dandruff{
+  width: 20px;
+  height: 20px;
+}
+
+.position{
+  padding-left: 18px ;
+  height: 44px;
+  width: 125px;
+
+
+}
+
+.line-search{
+  width: 0;
+  height: 28px;
+  margin-top: 8px;
+  border-right:1px solid #dfe1e5 ;
+}
+
+.border{
+  border: 1px solid #dfe1e5;
+  display: flex;
+  background: #fff;
+  border-radius: 24px;
+  height: 44px;
+  width: 638px;
+  margin: 0 323px 0 145px;
+  padding-left: 17px;
+}
+
+.button-dandruff{
+  height: 44px;
+  width: 44px;
+  background: transparent;
+  border:0;
+  padding: 1px 22px 1px 5px;
+}
+
+.search-keyboard, .search-micro{
+  width: 24px;
+  line-height: 44px;
+  padding: 5px 5px;
+  margin: 0;
+  display:inline;
+}
+
+.block-search{
+  left: 0;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.applications, .account{
+  float: right;
+  align-items: center;
+}
+
+.applications{
+  width: 24px;
+  height: 24px;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+.account{
+  height: 32px;
+  width: 32px;
+  margin-top: 6px;
+  margin-right: 20px;
+}
+
+.all-inform{
+
+  height: 16px;
+  width: 56px;
+  padding: 16px 12px 12px 10px;
+  margin: -14px 1px 0 110px;
+  align-items: center;
+}
+
+.images{
+  color: #1a73e8;
+  padding-bottom: 14px;
+  border-bottom: 3px solid #1a73e8;
+}
+
+.tyk {
+  font-size: 20px;
+  padding: 13px 5px;
+  color: #5f6368;
+  opacity: 0;
+}
+
+.tyk:hover {
+  opacity: 1;
+}
+
+.block-image{
+  display: block;
+  width: 330px;
+  margin-top: 30px;
+  margin-left: 20px;
+
+}
+
+.block-images-position li{
+  display: inline-block;
+}
+
+.block-image a, .block-image span, .block-image img{
+  padding-right: 20px;
+}
+
+ td {
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.image{
+  width: 245px;
+  height: 150px;
+}
+
+.image:hover{
+  box-shadow: 0 0 10px #222222;
+}
+
+.attributes ul a{
+  text-decoration: none;
+}
+
+.attributes a{
+
+  color: #5f6368;
+}
+
+.attributes{
+  height: 33px;
+  margin-top: 20px;
+  border-bottom: 1px solid #ebebeb;
+  font-size: 13px;
+  display: block;
+}
+
+.attributes a:hover{
+  color: #1a73e8;
+}
+
+.attributes  li {
+  display: inline-block;
+}
+
+.attributes .far,.attributes .fas, .attributes .fab, .attributes .map{
+  color: #5f6368;
+  font-size: 12px;
+}
+
+.border:hover{
+  box-shadow: 0 0 10px #222222;
+}
+
+.menu{
+  color: #5f6368;
+  height: 12px;
+  width: 12px;
+}
+
+li a{
+  padding: 16px 12px 12px 10px;
+}
+
+ a:hover{
+  text-decoration: underline;
+}
+
+.block-position-footer{
+  background: #f2f2f2 ;
+  line-height: 20px;
+  height: 67px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.block-position-footer-text{
+  margin-left: 166px;
+  padding-left: 27px;
+  color: #888888;
+
+}
+
+.block-position-footer-list li {
+  display: inline-block;
+}
+
+.block-position-footer-list{
+  margin-left: 13px;
+  border-left: 1px solid #e4e4e4;
+  padding-left: 16px;
+  font-size: 14px;
+}
+
+.block-position-footer-list a, .block-position-footer-list ul{
+  padding: 0;
+}
+
+.block-position-footer-list .fas{
+  font-size: 8px;
+
+}
+
+.block-position-footer-list a{
+  color: #888888;
+  text-decoration: none;
+}
+
+.block-position-footer-list a:hover{
+  color: #333;
+}
+
+.block-position-footer-list span{
+  color: #333333;
+}
+
+.block-footer-bottom{
+  background: #f2f2f2;
+}
+
+.block-footer-bottom li{
+  display: inline-block;
+}
+
+.block-footer-bottom-list{
+  margin-left: 166px;
+}
+
+.block-footer-bottom-list ul{
+  padding: 10px 0 10px 20px;
+  margin: 0;
+}
+
+.block-footer-bottom-list a{
+  text-decoration: none;
+  color: #5f6368;
+}
+
+.block-footer-bottom-list a:hover{
+  color: #333;
+}
+
+.block-search-results{
+  padding-left: 20px;
+  display:inline;
+}
+
+.border-main-head{
+  padding: 15px 20px;
+  font-size: 14px;
+  color: #3c4043;
+  border-radius: 100px 100px;
+  box-shadow: 0 0 5px #888888;
+  margin-left: 5px;
+ }
+
+.block-search-results-inline{
+  display:inline;
+}
